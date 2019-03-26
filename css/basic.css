@@ -1,0 +1,124 @@
+/* 초기화 작업 */
+*{margin:0; padding:0;}
+li{list-style: none;}
+a{text-decoration: none;}
+img{border: none;}
+.hidden{position: absolute; left:-9999px;}
+body{width: 1903px; margin:0 auto; font-size: 14px; font-family: "NanumGothic",sans-serif; background: #fff;}
+@font-face {
+      font-family: NanumGothic;
+      src:url("../font/NanumGothic.ttf"),
+      url("../font/NanumGothic.eot"),
+      url("../font/NanumGothic.woff")
+}
+@font-face {
+      font-family: NanumGothicBold;
+      src:url("../font/NanumGothicBold.ttf"),
+      url("../font/NanumGothicBold.eot"),
+      url("../font/NanumGothicBold.woff")
+}
+@font-face {
+      font-family: NanumGothicExtraBold;
+      src:url("../font/NanumGothicExtraBold.ttf"),
+      url("../font/NanumGothicExtraBold.eot"),
+      url("../font/NanumGothicExtraBold.woff")
+}
+@font-face {
+      font-family: Haan Cooljazz L;
+      src:url("../font/HANCooljazzL.ttf"),
+      url("../font/HANCooljazzL.eot"),
+      url("../font/HANCooljazzL.woff")
+}
+@font-face {
+      font-family: Haan Cooljazz M;
+      src:url("../font/HANCooljazzM.ttf"),
+      url("../font/HANCooljazzM.eot"),
+      url("../font/HANCooljazzM.woff")
+}
+@font-face {
+      font-family: Haan Cooljazz B;
+      src:url("../font/HANCooljazzB.ttf"),
+      url("../font/HANCooljazzB.eot"),
+      url("../font/HANCooljazzB.woff")
+}
+@font-face {
+      font-family: HYCYSM;
+      src:url("../font/HYCYSM.eot"),
+      url("../font/HYCYSM.TTF.woff")
+}
+@font-face {
+      font-family: ParkAvenue BT;
+      src:url("../font/ENPKAV.ttf"),
+      url("../font/ENPKAV.eot")
+      url("../font/ENPKAV.TTF.woff")
+}
+@font-face {
+      font-family: TSTPenC;
+      src:url("../font/PENHL.ttf");
+}
+/* 헤드 */
+#top_button{border-style: none; width: 50px; height: 50px; background-color: #352715; color: #eeeeee;}
+#header{overflow: hidden;}
+.logo{float: left; margin:50px 0 50px 720px;}
+.lnb_right{float: right; margin:30px 220px 0 0;}
+.lnb_right ul{height:13px; line-height: 13px;}
+.lnb_right>ul li{float: left; width:100px;}
+.login{font-size: 14px; border-left:1px solid #bebebe; color:#000;display: block; text-align: center;}
+.join1{font-size: 14px; border-left:1px solid #bebebe; color:#000;display: block; text-align: center;}
+.language{width: 100px; font-size: 14px; border-left:1px solid #bebebe; color:#000; display: block; padding-left: 20px; border-collapse: collapse;}
+.lnb_img{padding: 2px 5px;}
+.language_menu{font-size: 13px; padding: 5px 15px; text-align: center;}
+.language_menu li a{display: block; padding:7px 0; color:#fff;  background-color: #000;}
+
+/* 슬라이더 */
+#sliderWrap{position: relative;}
+.nav1{position: absolute; top:0;}
+.nav1 ul{width: 1513px; height: 65px;  background-color: rgba(0, 0, 0,0.6); padding:0 195px;}
+.nav1 ul li{float:left;}
+.nav1 ul li a{color:rgba(255, 255, 255,0.9); font-size: 16px;}
+.nav1 ul li span{color:#fff; font-size: 17px; color: rgba(204, 204, 204, 0.8);}
+.nav1 ul li:nth-child(1) a{display: inline; height:65px; line-height: 65px; padding:18px 66px; text-align: center;}
+.nav1 ul li:nth-child(1) a:hover{border-bottom: 4px solid #fff;}
+.nav1 ul li:nth-child(2) a{display: inline; height:65px; line-height: 65px; padding:18px 66px; text-align: center;}
+.nav1 ul li:nth-child(2) a:hover{border-bottom: 4px solid #fff;}
+.nav1 ul li:nth-child(3) a{display: inline; height:65px; line-height: 65px; padding:18px 66px; text-align: center;}
+.nav1 ul li:nth-child(3) a:hover{border-bottom: 4px solid #fff;}
+.nav1 ul li:nth-child(4) a{display: inline; height:65px; line-height: 65px; padding:18px 66px; text-align: center;}
+.nav1 ul li:nth-child(4) a:hover{border-bottom: 4px solid #fff;}
+.nav1 ul li:nth-child(5) a{display: inline; height:65px; line-height: 65px; padding:0 66px 18px; text-align: center;}
+.nav1 ul li:nth-child(5) a:hover{border-bottom: 4px solid #fff;}
+.nav1 ul li:nth-child(6) a{display: inline; height:65px; line-height: 65px; padding:0 60px 18px; text-align: center;}
+.nav1 ul li:nth-child(6) a:hover{border-bottom: 4px solid #fff;}
+.nav1 ul li:nth-child(7){background-color: rgba(126, 93, 13,0.5);}
+.nav1 ul li:nth-child(7) a{display: inline; height:65px; line-height: 65px; text-align: center; padding:0 55px 18px;}
+.nav1 ul li:nth-child(7) a:hover{border-bottom: 4px solid #fff;}
+/* 푸터 */
+#newsletter{overflow: hidden; height:65px; background-color: #808080;}
+#newsletter ul{float: right;}
+#newsletter ul li{float: left; line-height: 65px;}
+#newsletter ul li:nth-child(1){padding:13px 0;}
+#newsletter ul li:nth-child(2){padding:13px 2px;}
+#newsletter ul li:nth-child(3){padding:13px 0;}
+#newsletter ul li:nth-child(4){padding:0 6px;}
+#newsletter h3{display: block; font-weight:normal; font-size: 16px;}
+.form_submitimg{width:60px; padding: 20px 20px 0 5px;}
+.form_email{width:287px; height:22px; outline:none; color:#a1a1a1; line-height: 22px;}
+
+
+
+#footer{height:233px; background: url("../images/bottom_logo.jpg") no-repeat 233px 44px; background-color: #2f2f2f;}
+.footer_nav ul{overflow: hidden; padding: 50px 0 5px 446px;}
+.footer_nav ul li{float: left;}
+.footer_nav ul li a{height:9px; line-height: 9px; display: block; color:#bd916c; border-right: 1px solid #bdb5ae; padding: 0 14px; font-size: 13px;}
+.footer_txt{margin:  25px 0 0 460px;}
+.footer_txt ul{overflow: hidden;}
+.footer_txt_1 li:nth-child(1){border-right:1px solid #c7c7c7; height:9px; line-height: 9px; padding-right: 10px; margin-top:3px;}
+.footer_txt_1 li:nth-child(2){border-right:1px solid #c7c7c7; height:9px; line-height: 9px; padding:0 10px; margin-top:3px;}
+.footer_txt_1 li:nth-child(3){border-right:1px solid #c7c7c7; height:9px; line-height: 9px; padding:0 10px; margin-top:3px;}
+.footer_txt_1 li:nth-child(4){padding-left:10px;}
+.footer_txt_2 li:nth-child(2){padding-right:10px;}
+.footer_txt_2 li:nth-child(3){border-left: 1px solid #c7c7c7; height:9px; line-height: 9px; padding-left:10px; margin-top:3px;}
+.footer_txt p{display: block; padding-bottom: 11px;  color:#c7c7c7; font-weight: normal; font-size: 12px;}
+.footer_txt ul li{float: left;}
+.footer_txt ul li p{display: block; color:#c7c7c7; font-weight: normal;  font-size: 12px;}
+.footer_txt address{display: block; color:#c7c7c7;font-style: normal;  font-size: 12px;}

@@ -1,0 +1,16 @@
+#sliderWrap{height: 450px;background: url("../images/about_bacimg.gif") no-repeat;}
+.about_txt{position: absolute; margin:170px 0 0 759px; width:377px; height:155px; border:1px solid #fff;}
+.about_txt h2{font-size: 80px; font-weight: normal; color:#fff; text-align: center; line-height: 135px;}
+.about_txt p{font-family: ParkAvenue BT;font-style: italic; font-size: 20.8px; color:#fff;text-align:center; margin-top: -33px;}
+/* 콘텐트 */
+
+#content_img img {position:absolute;}
+
+
+
+#contentWrap{overflow: hidden; margin-top: -2px;}
+#content_img{width:950px; height:815px; float: left;}
+
+/* .about{float:left;} */
+.second_logo{margin:106px 390px 50px;}
+.about p{font-size: 20px; text-align: center; line-height: 35px; color:#431f16; font-weight: 539;}

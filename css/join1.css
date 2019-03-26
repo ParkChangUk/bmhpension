@@ -1,0 +1,75 @@
+#sliderWrap{position: relative; height: 450px;background: url("../images/login_img.gif") no-repeat;}
+.join_txt{position: absolute; margin:170px 0 0 759px; width:377px; height:155px; border:1px solid #fff;}
+.join_txt h2{font-size: 69.52px; font-weight: normal; color:#fff; text-align: center; line-height: 135px;}
+.join_txt p{font-family: ParkAvenue BT;font-style: italic; font-size: 20.8px; color:#fff;text-align:center;margin-top: -25px;}
+
+#content{width:1244px; margin:71px auto 0;}
+.join_Lst{margin-left: 20px;height: 66px; border-top:2px solid rgba(53,19,9,0.3);border-bottom: 2px solid rgba(53,19,9,0.3);}
+.join_Lst ul{overflow: hidden; margin:0 180px; line-height: 66px;}
+.join_Lst ul li{float:left;}
+.join_Lst ul li:nth-child(2){margin-top: 5px;}
+.join_Lst ul li:nth-child(4){margin-top: 5px; opacity: 0.3;}
+.join_Lst ul li a{font-size: 22px; padding:0 41px; color:#351309; font-weight: bold;}
+.join_Lst ul li:nth-child(3) a{color:rgba(53,19,9,0.3);}
+.join_Lst ul li:nth-child(5) a{color:rgba(53,19,9,0.3);}
+
+.all_agree ul{overflow: hidden; height:20px; margin: 56px 0 0 20px; border-bottom: 2px solid rgba(83, 46, 35,0.5); padding-bottom: 12px; margin-bottom: 52px;}
+.all_agree ul li{float:left; line-height: 20px;}
+.all_agree ul li:nth-child(2){margin:0 21px 0 8px; font-size: 18px; font-weight: bold; color:#532e23;}
+.al_agree{display:none;}
+.al_agree + label{display: inline-block; cursor: pointer; position: relative; padding-left: 18px;
+                  color:#000; margin-top: 1px;}
+.al_agree + label:before {content: ""; display: inline-block; width: 13px; height: 13px; position: absolute; left: 0px; bottom: 1px; background-color: #fff;
+                    border-radius: 2px; border: 1px solid #8c8c8c;}
+.al_agree:checked + label:before {content: "\2713"; font-size: 18px; font-weight:bold; color: #000; background:#fff;
+                    text-align: center; line-height:13px;}
+
+#content h3{margin-left: 20px; font-size: 18px; font-weight: 500; margin-bottom: 15px;}
+
+.agree_form1{position: relative; margin-left: 20px; width:1236px; height:213px; background-color: #f6f4f4; margin-bottom: 69px;}
+.text_1{display: none;}
+.text_1 + label{display:inline-block; width:1199px; height:150px; background-color: #fff;
+                font-size: 15px; color:#000; margin: 13px 0 11px 13px; padding-top:10px; padding-left:10px;}
+
+.agree_1{display:none;}
+.agree_1 + label{display: inline-block; cursor: pointer; position: relative; padding-left: 35px;
+                  color:#000; margin-top: 0px;}
+.agree_1 + label:before {content: ""; display: inline-block; width: 13px; height: 13px; position: absolute; left: 16px; bottom: 0px; background-color: #fff;
+                    border-radius: 2px; border: 1px solid #8c8c8c;}
+.agree_1:checked + label:before {content: "\2713"; font-size: 18px; font-weight:bold; color: #000; background:#fff;
+                    text-align: center; line-height:13px;}
+
+.disagree_1{display:none;}
+.disagree_1 + label{display: inline-block; cursor: pointer; position: relative; padding-left: 35px;
+                  color:#000; margin-top: 1px;}
+.disagree_1 + label:before {content: ""; display: inline-block; width: 13px; height: 13px; position: absolute; left: 16px; bottom: 0px; background-color: #fff;
+                    border-radius: 2px; border: 1px solid #8c8c8c;}
+.disagree_1:checked + label:before {content: "\2713"; font-size: 18px; font-weight:bold; color: #000; background:#fff;
+                    text-align: center; line-height:13px;}
+
+.agree2{padding:10px; margin-left: 30px;position: relative; margin-left: 20px; width:1220px; height:203px; background-color: #f6f4f4; margin-bottom: 69px;}
+.table{border-collapse: collapse; width:1209px; height: 160px; margin:5px; background-color: #fff; font-size: 15px; text-align: center; line-height: 20px; margin-bottom: 15px;}
+.table tr td:nth-child(1){border-left:none;}
+.table tr:nth-child(1){border-bottom: 1px solid #bbbbbb; background-color: #f2f8fa; font-weight: 500; height:46px;}
+.table tr:nth-child(2){border-bottom: 1px solid #bbbbbb; height:46px;}
+.table tr:nth-child(3){height:46px;}
+.table tr td{border-left: 1px solid #bbbbbb;}
+
+.agree_2{display:none;}
+.agree_2 + label{display: inline-block; cursor: pointer; position: relative; padding-left: 35px;
+                color:#000; margin-top: 0px;}
+.agree_2 + label:before {content: ""; display: inline-block; width: 13px; height: 13px; position: absolute; left: 16px; bottom: 0px; background-color: #fff;
+                    border-radius: 2px; border: 1px solid #8c8c8c;}
+.agree_2:checked + label:before {content: "\2713"; font-size: 18px; font-weight:bold; color: #000; background:#fff;
+                    text-align: center; line-height:13px;}
+
+.disagree_2{display:none;}
+.disagree_2 + label{display: inline-block; cursor: pointer; position: relative; padding-left: 35px;
+                  color:#000; margin-top: 1px;}
+.disagree_2 + label:before {content: ""; display: inline-block; width: 13px; height: 13px; position: absolute; left: 16px; bottom: 0px; background-color: #fff;
+                    border-radius: 2px; border: 1px solid #8c8c8c;}
+.disagree_2:checked + label:before {content: "\2713"; font-size: 18px; font-weight:bold; color: #000; background:#fff;
+                    text-align: center; line-height:13px;}
+
+.next{margin:72px auto 78px; width:167px;}
+.next a{display: block; padding:1px 20px; color:#fff; background-color: #352715; line-height:44px; text-align: center; font-size: 19px;}

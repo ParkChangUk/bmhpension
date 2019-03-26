@@ -1,0 +1,81 @@
+/* 슬라이더 */
+#sliderWrap{height:866px;}
+#slide{position: absolute;}
+#slide_img{width:1903px; overflow: hidden; }
+#slide_img ul{width: 5709px;}
+#slide_img ul li img{float: left;}
+.right_btn{position: absolute; right:10px; top:408px;
+                      width:20px; height:65px; opacity:0.4; padding:5px;}
+.right_btn:hover{opacity:1;}
+.left_btn{position: absolute; left:10px; top:408px;
+                        width:20px; height:65px; opacity:0.4; padding:5px;}
+.left_btn:hover{opacity:1;}
+
+/* 패키지 */
+#package{height: 1580px;}
+#package h2{margin:108px 0 20px 0;font-size:50px; font-weight: normal; text-align: center; text-transform: uppercase;}
+#package div{width: 90px; border: 1px solid #bfbfbf; margin:20px auto 71px;}
+.getpul{float:left; width:440px; height: 549px;  border:1px solid rgba(0, 0, 0,0.22); margin: 0 0 90px 180px;}
+.getpul h3{display: block; margin: 30px 0 18px 9px; font-size: 22px;}
+.getpul p{display: block; padding: 0 0 20px 9px; font-size: 17px;}
+.getpul a{color:#000; border:1px solid rgba(0,0,0,0.22); padding:7px 10px;
+          font-size: 15px; line-height: 30px; text-align: center; margin:0 9px;}
+.getpul a:hover{background-color: #352715; color:#fff; transition: 0.5s;}
+.dinner{float:left; width:440px; height: 549px; border:1px solid rgba(0, 0, 0,0.22); margin: 0 90px 90px;}
+.dinner h3{display: block; margin: 30px 0 18px 9px; font-size: 22px;}
+.dinner p{display: block; padding: 0 0 20px 9px; font-size: 17px;}
+.dinner a{color:#000; border:1px solid rgba(0,0,0,0.22); padding:7px 10px;
+          font-size: 15px; line-height: 30px; text-align: center; margin:0 9px;}
+.dinner a:hover{background-color: #352715; color:#fff; transition: 0.5s;}
+.spa{float:left; width:440px; height: 549px; border:1px solid rgba(0, 0, 0,0.22); margin-bottom:90px;}
+.spa h3{display: block; margin: 30px 0 18px 9px; font-size: 22px;}
+.spa p{display: block; padding: 0 0 20px 9px; font-size: 17px;}
+.spa a{color:#000; border:1px solid rgba(0,0,0,0.22); padding:7px 10px;
+          font-size: 15px; line-height: 30px; text-align: center; margin:0 9px;}
+.spa a:hover{background-color: #352715; color:#fff; transition: 0.5s;}
+.pajamas{float: left; width:440px; height: 549px; border:1px solid rgba(0, 0, 0,0.22); margin: 0 90px 158px 460px; }
+.pajamas h3{display: block; margin: 30px 0 18px 9px; font-size: 22px;}
+.pajamas p{display: block; padding: 0 0 20px 9px; font-size: 17px;}
+.pajamas a{color:#000; border:1px solid rgba(0,0,0,0.22); padding:7px 10px;
+          font-size: 15px; line-height: 30px; text-align: center; margin:0 9px;}
+.pajamas a:hover{background-color: #352715; color:#fff; transition: 0.5s;}
+.aroma{float: left; width:440px; height: 549px; border:1px solid rgba(0, 0, 0,0.22);}
+.aroma h3{display: block; margin: 30px 0 18px 9px; font-size: 22px;}
+.aroma p{display: block; padding: 0 0 20px 9px; font-size: 17px;}
+.aroma a{color:#000; border:1px solid rgba(0,0,0,0.22); padding:7px 10px;
+          font-size: 15px; line-height: 30px; text-align: center; margin:0 9px;}
+.aroma a:hover{background-color: #352715; color:#fff; transition: 0.5s;}
+
+/* 이벤트 */
+#event{height:1352px; background: url("../images/이벤트뒷배경.jpg") repeat-x;}
+#event h2{padding:74px 0 0;font-size:50px; font-weight: normal; text-align: center; text-transform: uppercase;}
+#event div{width: 90px; border: 1px solid #bfbfbf; margin:20px auto 23px;}
+
+/* 소셜 */
+#social{overflow: hidden; margin-bottom: 132px;}
+#social h2{margin:108px 0 20px 0;font-size:50px; font-weight: normal; text-align: center; text-transform: uppercase;}
+#social div{width: 90px; border: 1px solid #bfbfbf; margin:20px auto 71px;}
+.social_logo{padding:42px 60px 74px;}
+.instar{width: 414px; height: 540px; float: left; background: url("../images/social_bac.gif") no-repeat; margin-left: 200px;}
+.instar ul li{margin-left:60px; color:#fff;}
+.instar ul li:nth-child(1) {font-size: 20px;}
+.instar ul li:nth-child(2) {font-size: 17px; padding-top:50px;}
+.instar ul li:nth-child(3) {font-size: 17px; padding-top:26px; margin-bottom: 100px;}
+.instar ul li:nth-child(4) a{font-size: 17px; color: #fff; margin-top: -20px;}
+.instar_btn{width: 30px; height:12px; padding-left: 5px;}
+
+.facebook{width: 414px; height: 540px;float: left; background: url("../images/social_bac.gif") no-repeat; margin:0 130px;}
+.facebook ul li{margin-left:60px; color:#fff;}
+.facebook ul li:nth-child(1) {font-size: 20px;}
+.facebook ul li:nth-child(2) {font-size: 17px; padding-top:50px;}
+.facebook ul li:nth-child(3) {font-size: 17px; padding-top:26px; margin-bottom: 100px;}
+.facebook ul li:nth-child(4) a{font-size: 17px; color: #fff; margin-top: -20px;}
+.facebook_btn{width: 30px; height:12px; padding-left: 5px;}
+
+.blog{width: 414px; height: 540px; float: left; background: url("../images/social_bac.gif") no-repeat;}
+.blog ul li{margin-left:60px; color:#fff;}
+.blog ul li:nth-child(1) {font-size: 20px;}
+.blog ul li:nth-child(2) {font-size: 17px; padding-top:50px;}
+.blog ul li:nth-child(3) {font-size: 17px; padding-top:26px; margin-bottom: 100px;}
+.blog ul li:nth-child(4) a{font-size: 17px; color: #fff; margin-top: -20px;}
+.blog_btn{width: 30px; height:12px; padding-left: 5px;}

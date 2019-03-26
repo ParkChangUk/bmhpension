@@ -1,0 +1,20 @@
+body{font-family: "MalgunGothic",sans-serif;}
+#sliderWrap{position: relative; height: 450px;background: url("../images/room_bacimg.gif") no-repeat;}
+.login_txt{position: absolute; margin:170px 0 0 680px; width:500px; height:155px; border:1px solid #fff;}
+.login_txt h2{font-size: 70px; font-weight: normal; color:#fff; text-align: center; line-height: 135px;}
+.login_txt p{font-family: ParkAvenue BT;font-style: italic; font-size: 20.8px; color:#fff;text-align:center;margin-top: -33px;}
+
+#sectionWrap{overflow: hidden; height:1100px; margin-bottom: 100px;}
+#side_nav{float: left; margin:95px 60px 0 60px;}
+#side_nav h3{padding:20px 124px 19px 21px; background-color: #352715; font-size: 18px; color:#fff; font-weight: 549;}
+
+#side_nav ul li:nth-child(1){width: 209px; height:42px; color:#352715; line-height: 42px; text-align: center; font-size: 14px; font-weight: bold; border-bottom: 1px solid #352715; background-color: #fff;}
+#side_nav ul li:nth-child(2){width: 209px; height:42px; line-height: 42px; text-align: center; font-size: 14px; font-weight: bold; background-color: #f8f8f8;}
+#side_nav ul li:nth-child(3){width: 209px; height:300px; background-color: #f8f8f8;}
+.ingEvent_h3{width:1400px; font-size: 25px; font-weight: 400; margin-top: 90px; margin-left: 330px; padding-bottom: 20px; border-bottom: 1px solid #cdcdcd;}
+.ingEvent_img img{ width:1300px; height: 700px; margin: 50px 0 0 50px;}
+
+#traffic_info{width:1280px; margin-left: 382px; margin-top: -5px; padding: 10px; background-color: #f1f8ff;}
+#table tr td{font-size: 15px;}
+#table tr td span{font-weight: bold; font-size: 16px; color: #1c42b5;}
+.table4{padding-left: 246px;}

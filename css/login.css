@@ -1,0 +1,49 @@
+#sliderWrap{position: relative; height: 450px;background: url("../images/login_img.gif") no-repeat;}
+.login_txt{position: absolute; margin:170px 0 0 759px; width:377px; height:155px; border:1px solid #fff;}
+.login_txt h2{font-size: 80px; font-weight: normal; color:#fff; text-align: center; line-height: 135px;}
+.login_txt p{font-family: ParkAvenue BT;font-style: italic; font-size: 20.8px; color:#fff;text-align:center;margin-top: -33px;}
+
+#content h2{font-size: 32px; color:#351309; text-align: center; margin-top: 100px;}
+#content p{text-align: center;margin-top: 10px;}
+#content h3{margin-top: 32px; font-size: 32px; text-align: center; margin-bottom: 19px;}
+.nonmamber_lg h4{font-weight: normal;}
+.naver_login{position: relative; width: 771px; height:380px; border-top:2px solid #000;margin: 0 auto 103px; background-color: #f9f9f9;}
+.online_lg{position: absolute; left:35px;}
+.nonmamber_lg{position: absolute; left:400px;}
+.online_lg ul{overflow: hidden; width:696px; height:296px; border-top: 1px solid #c2c2c2; margin:0 auto; border-bottom: 1px solid #c2c2c2;}
+.online_lg ul li:nth-child(1) {font-size: 19px; font-weight: bold; margin:44px 0 31px 22px;}
+.online_lg ul li:nth-child(2) {font-size: 14.5px; color:#646464; font-weight: 500; margin:0 0 5px 22px;}
+.id{width:196px; height: 21px; margin:0 0 12px 17px;outline:none;}
+.pw{width:196px; height: 21px; margin:0 0 12px 3px;outline:none;}
+.login_pg ul li:nth-child(3) {margin:0 50px;font-size: 12px;}
+.id_save{display:none;}
+.id_save + label{display: inline-block; cursor: pointer; position: relative; padding-left: 107px;
+                  font-size: 13px; color:#454545;}
+.id_save + label:before {content: ""; display: inline-block; width: 11px; height: 11px; margin-right: 20px; position: absolute; left: 88px; bottom: 1px; background-color: #fff;
+                    border-radius: 2px; border: 1px solid #8c8c8c;}
+.id_save:checked + label:before {content: "\2713"; font-size: 15px; font-weight:bold; color: #352715; background:#fff;
+                    text-align: center; line-height:11px; background: #352715;}
+.auto_lg{display:none;}
+.auto_lg + label{display: inline-block; cursor: pointer; position: relative; padding-left: 40px;
+                  font-size: 13px; color:#454545;}
+.auto_lg + label:before {content: ""; display: inline-block; width: 11px; height: 11px; margin-right: 20px; position: absolute; left: 20px; bottom: 1px; background-color: #fff;
+                    border-radius: 2px; border: 1px solid #8c8c8c;}
+.auto_lg:checked + label:before {content: "\2713";font-size: 15px; font-weight:bold; color: #352715; background:#fff;
+                    text-align: center; line-height: 11px; background: #352715}
+.onlineLogin{color: #fff; font-size: 18px; width: 164px; height:41px; line-height: 43px; text-align: center;
+                                background-color: #352715; margin:18px 0 0 86px; border:0; outline: 0;}
+.nonmamber_lg ul{width:696px; height:296px;}
+.nonmamber_lg ul li:nth-child(1) {font-size: 19px; font-weight: bold; margin:44px 0 31px 22px;}
+.nonmamber_lg ul li:nth-child(2) {font-size: 14.5px; color:#646464; font-weight: 500; margin:0 0 5px 22px;}
+.nonmamber_lg ul li:nth-child(3) {margin:7px 0 20px 28px;font-size: 12px;}
+.non_name{outline:none;width:196px; height: 21px; margin:0 0 10px 31px;}
+.non_Login{color: #fff; font-size: 18px; width: 164px; height:41px; line-height: 43px; text-align: center;
+                                background-color: #352715; margin:0 0 0 86px; border:0; outline: 0;}
+
+.lg_bottom{ width:500px; height:30px; position: absolute; bottom:28px; left:265px;}
+.lg_bottom ul li:nth-child(1) a{float: left; display: block; margin-right: 20px; color:#fff; font-weight: 100; font-size: 14px;
+                                line-height: 35px; text-align: center;
+                                width:100px; height: 35px; background-color: #352715;}
+.lg_bottom ul li:nth-child(2) a{float: left; display: block; color:#fff; font-weight: 100px; font-size: 14px;
+                                line-height: 35px; text-align: center;
+                                width:170px; height: 35px; background-color: #352715;}

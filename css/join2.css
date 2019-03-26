@@ -1,0 +1,124 @@
+#sliderWrap{position: relative; height: 450px;background: url("../images/login_img.gif") no-repeat;}
+.join_txt{position: absolute; margin:170px 0 0 759px; width:377px; height:155px; border:1px solid #fff;}
+.join_txt h2{font-size: 69.52px; font-weight: normal; color:#fff; text-align: center; line-height: 135px;}
+.join_txt p{font-family: ParkAvenue BT;font-style: italic; font-size: 20.8px; color:#fff;text-align:center;margin-top: -25px;}
+
+#content{width:1244px; margin:71px auto 0;}
+.join_Lst{margin-left: 20px;height: 66px; border-top:2px solid rgba(53,19,9,0.3);border-bottom: 2px solid rgba(53,19,9,0.3);}
+.join_Lst ul{overflow: hidden; margin:0 180px; line-height: 66px;}
+.join_Lst ul li{float:left;}
+.join_Lst ul li:nth-child(2){margin-top: 5px; opacity: 0.3;}
+.join_Lst ul li:nth-child(4){margin-top: 5px;}
+.join_Lst ul li a{font-size: 22px; padding:0 41px; color:#351309; font-weight: bold;}
+.join_Lst ul li:nth-child(1) a{color:rgba(53,19,9,0.3);}
+.join_Lst ul li:nth-child(3) a{color:#361309;}
+.join_Lst ul li:nth-child(5) a{color:rgba(53,19,9,0.3);}
+
+.select ul{overflow: hidden; height:20px; margin: 56px 0 0 20px; border-bottom: 2px solid rgba(83, 46, 35,0.5); padding-bottom: 12px; margin-bottom: 31px;}
+.select ul li{float:left; line-height: 20px;}
+.select ul li:nth-child(2){margin:0 21px 0 8px; font-size: 18px; font-weight: bold; color:#532e23;}
+
+
+#loginInfo{margin-left: 20px; font-size: 18px; font-weight: 500; margin-bottom: 15px; color:#532e23;}
+#form1{overflow: hidden; margin-left: 18px; width: 1228px; border-top: 1px solid #d4d4d4;}
+.form_txt{position: relative; width: 210px; height:53px; float: left; font-size: 16px; text-align: center; line-height: 53px; background-color: #f8f7f6;}
+.form_txt span{position: absolute; top:3px; right: 69px; color: #ff0000;}
+#txtId{float: left; margin: 13px 10px 13px 20px; width:170px; height:19px; font-size: 14px; font-style: none;}
+.idBtn{margin-top: 11px; margin-right: 5px; padding: 4px 8px 5px; border: 0; outline: 0; background-color: #352715; color:#ededed;}
+
+#form2{overflow: hidden; margin-left: 18px; width: 1228px; border-top: 1px solid #d4d4d4;}
+#form2 p{line-height: 49px;}
+.pw_txt{position: relative; width: 210px; height:53px; float: left; font-size: 16px; text-align: center; line-height: 53px; background-color: #f8f7f6;}
+.pw_txt span{position: absolute; top:3px; right: 61px; color: #ff0000;}
+.txtPw{float: left; margin: 13px 10px 13px 20px; width:170px; height:19px; font-size: 14px; font-style: none;}
+.top_Bar{overflow: hidden; margin-top: 4px; border-top:1px solid #d4d4d4;}
+.pwc_txt{position: relative; width: 210px; height:53px; font-size: 16px; float: left; text-align: center; line-height: 53px; background-color: #f8f7f6;}
+.pwc_txt span{position: absolute; top:4px; right: 41px; color: #ff0000;}
+.txtPwc{float: left; margin: 13px 10px 13px 20px; width:170px; height:19px; font-size: 14px; font-style: none;}
+
+#userInfo{margin-top: 50px; font-size: 18px; font-weight: 500; margin-bottom: 15px; color:#532e23;}
+.top_Bar1{overflow: hidden; border-top:1px solid #d4d4d4;}
+.name_txt{position: relative; width: 210px; height:53px; float: left; font-size: 16px; text-align: center; line-height: 53px; background-color: #f8f7f6;}
+.name_txt span{position: absolute; top:3px; right: 55px; color: #ff0000;}
+.txtName{float: left; margin: 13px 10px 13px 20px; width:170px; height:19px; font-size: 14px; font-style: none;}
+.name_en_txt{position: relative; width: 210px; height:53px; font-size: 16px; float: left; text-align: center; line-height: 53px; background-color: #f8f7f6;}
+.name_en_txt span{position: absolute; top:4px; right: 55px; color: #ff0000;}
+.txtNameEn{float: left; margin: 13px 10px 13px 20px; width:170px; height:19px; font-size: 14px; font-style: none; text-transform: uppercase;}
+.name_en_p{font-size: 14px; color:#0029ff;}
+.sex_txt{position: relative; width: 210px; height:53px; font-size: 16px; float: left; text-align: center; line-height: 53px; background-color: #f8f7f6;}
+.sex_txt span{position: absolute; top:3px; right: 78px; color: #ff0000;}
+.man{float: left; margin: 20px 5px 0 20px;}
+.man_txt{float: left;}
+.woman{float: left; margin:20px 5px 0 20px;}
+.woman_txt{float: left;}
+.date_txt{position: relative; width: 210px; height:53px; float: left; font-size: 16px; text-align: center; line-height: 53px; background-color: #f8f7f6;}
+.date_txt span{position: absolute; top:3px; right: 63px; color: #ff0000;}
+.date{margin: 16px 3px 13px 20px; width:160px; height:19px; padding-left: 3px;}
+.ui-datepicker {
+  display: none;
+  background-color: #fff;
+  border-radius: 5px;
+  margin-top: 5px;
+  width: 200px;
+}
+ .ui-widget-header {
+  border-style: none;
+  height:32px;
+  background-color: #c0dbfb;
+ }
+.ui-datepicker .ui-datepicker-prev SPAN {
+  margin-top: -3px;
+ }
+ .ui-datepicker .ui-datepicker-next SPAN {
+  margin-top: -3px;
+ }
+ .ui-datepicker SELECT.ui-datepicker-year {
+ width: 55px;
+ margin-right: 2px;
+ font-size: 14px;
+ text-align: center;
+}
+.ui-datepicker SELECT.ui-datepicker-month {
+margin-top: 5px;
+margin-left: 10px;
+width: 48px;
+height: 20px;
+font-size: 12px;
+text-align: center;
+}
+.ui-widget-content .ui-state-default {
+ border-style: none;
+}
+.ui-datepicker-calendar > tbody td.ui-datepicker-week-end:first-child a { color: red; }
+.ui-datepicker-calendar > tbody td.ui-datepicker-week-end:last-child a { color: blue; }
+
+.phone_txt{position: relative; width: 210px; height:53px; float: left; font-size: 16px; text-align: center; line-height: 53px; background-color: #f8f7f6;}
+.phone_txt span{position: absolute; top:4px; right: 61px; color: #ff0000;}
+.number1{margin:16px 0 13px 20px; width: 43px; height:19px; -webkit-appearance: none; font-size: 12px; padding-left: 5px;
+       background-position:30px 7px; cursor:pointer; background-image: url('../images/number1.jpg'); background-repeat: no-repeat; background-size: 7px 4px;}
+.number2{width:36px; padding-left: 3px;}
+.number3{width:36px; padding-left: 3px;}
+.email_txt{position: relative; width: 210px; height:53px; float: left; font-size: 16px; text-align: center; line-height: 53px; background-color: #f8f7f6;}
+.email_txt span{position: absolute; top:4px; right: 70px; color: #ff0000;}
+.email_1{margin: 16px 0 13px 20px; width:130px;}
+.email_gol{margin:0 1px;}
+.email_2{width:130px;}
+#email_sel{width:88px; height:20px; margin-left:3px; font-size: 12px;}
+.info_txt{width: 210px; height:53px; float: left; font-size: 16px; text-align: center; line-height: 53px; background-color: #f8f7f6;}
+.email_chk{display:none;}
+.email_chk + label{margin: 16px 0 13px 20px; display: inline-block; cursor: pointer; position: relative; padding-left: 18px;
+                  color:#000;}
+.email_chk + label:before {content: ""; display: inline-block; font-size: 13px; width: 12px; height: 12px; position: absolute; left: 0px; bottom: 1px; background-color: #fff;
+                    border-radius: 2px; border: 1px solid #8c8c8c;}
+.email_chk:checked + label:before {content: "\2713"; font-size: 15px; font-weight:bold; color: #352715; background:#fff;
+                    text-align: center; line-height:13px; background: #352715;}
+.sms_chk{display:none;}
+.sms_chk + label{display: inline-block; cursor: pointer; position: relative; font-size:13px; padding-left: 32px; padding-right: 13px;
+                  color:#000;}
+.sms_chk + label:before {content: ""; display: inline-block; width: 12px; height: 12px; position: absolute; left: 14px; bottom: 0px; background-color: #fff;
+                    border-radius: 2px; border: 1px solid #8c8c8c;}
+.sms_chk:checked + label:before {content: "\2713"; font-size: 15px; font-weight:bold; color: #352715; background:#fff;
+                    text-align: center; line-height:13px; background: #352715;}
+
+
+.next{margin: 93px 0 78px 553px; background-color: #352715; color:#ededed; padding:15px 65px; font-size: 18px; border:0; outline: 0;}
