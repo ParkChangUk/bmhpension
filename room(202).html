@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <link rel="ICON" href="images/타이틀로고.jpg">
+    <title>ROOM</title>
+    <script src="js/jquery-1.7.2.min.js"></script>
+    <script src="js/basic.js"></script>
+    <script src="js/room.js"></script>
+    <link rel="stylesheet" href="css/basic.css" type="text/css">
+    <link rel="stylesheet" href="css/room(202).css" type="text/css">
+  </head>
+  <body>
+    <!-- TOP버튼 -->
+    <div style="position:relative;">
+      <div id="right_section" style="position:absolute;top:1000px;right:10px;">
+        <button style="cursor:pointer" id="top_button" type="button" name="button">TOP</button>
+      </div>
+    </div>
+    <header id="header">
+         <h1 class="logo"><a href="index.html"><img src="images/로고.jpg" alt="BMH펜션"></a></h1>
+         <nav class="lnb_right">
+            <h2 class="hidden">lnb_right</h2>
+             <ul>
+                <li><a class="login" href="login.html" onmouseover="this.innerText='로그인'" onmouseout="this.innerText='LOGIN'">LOGIN</a></li>
+                <li><a class="join1" href="join1.html" onmouseover="this.innerText='회원가입'" onmouseout="this.innerText='JOIN'">JOIN</a></li>
+                <li><a class="language" href="#">LANGUAGE<img class="lnb_img" src="images/language_bt.jpg" alt="언어종류"></a>
+                    <ul class = "language_menu">
+                      <li><a onmouseover="this.innerText='한국어'" onmouseout="this.innerText='KOREA'" href="#">KOREA</a></li>
+                      <li><a onmouseover="this.innerText='영어'" onmouseout="this.innerText='ENGLISH'" href="#">ENGLISH</a></li>
+                      <li><a onmouseover="this.innerText='일본어'" onmouseout="this.innerText='JAPANESE'" href="#">JAPANESE</a></li>
+                      <li><a onmouseover="this.innerText='중국어'" onmouseout="this.innerText='CHINESE'" href="#">CHINESE</a></li>
+                    </ul>
+                  </li>
+             </ul>
+          </nav>
+    </header>
+    <div id="sliderWrap">
+      <nav class="nav1">
+        <h2 class="hidden">main manu</h2>
+        <ul>
+          <li><span>|<span><a class="nav1_about" href="about.html">ABOUT</a><span>|<span></li>
+          <li><a class="nav1_room" href="room(101).html">ROOM</a></li>
+          <li><span>|<span><a class="nav1_special" href="bmhspecial(getpul)1.html">BMH SPECIAL</a><span>|<span></li>
+          <li><a class="nav1_event" href="bmhevent.html">BMH EVENT</a></li>
+          <li><span>|<span><a class="nav1_traffic" href="traffic.html">TRAFFIC</a></li>
+          <li><span>|<span><a class="nav1_community" href="bmhcommunity.html">COMMUNITY</a></li>
+          <li><a class="nav1_reservation" href="reservation.html">RESERVATION</a></li>
+        </ul>
+      </nav>
+      <div class="login_txt">
+        <h2>ROOM</h2>
+        <p>Body and Mind Healing pension</p>
+      </div>
+    </div>
+    <div id="sectionWrap">
+      <aside id="side_nav">
+        <h2 class="hidden">객실메뉴</h2>
+        <h3>객실안내</h3>
+        <ul>
+          <li>1F</li>
+          <li><a href="room(101).html">101호(파티룸)</a></li>
+          <li><a href="room(102).html">102호(파티룸)</a></li>
+          <li>2F</li>
+          <li><a href="room(201).html">201호</a></li>
+          <li><a href="room(202).html">202호</a></li>
+          <li>3F</li>
+          <li><a href="room(301).html">301호</a></li>
+          <li><a href="room(302).html">302호</a></li>
+          <li>4F</li>
+          <li><a href="room(401).html">401호</a></li>
+          <li><a href="room(402).html">402호</a></li>
+        </ul>
+      </aside>
+
+      <section id="room_Wrap">
+        <h2>202호</h2>
+        <div class="h3_div"></div>
+        <div id="slide">
+          <a href="#slide a"><img class="right_btn" src="images/right_btn.gif" alt="오른쪽버튼"></a>
+          <a href="#slide a"><img class="left_btn" src="images/left_btn.gif" alt="왼쪽버튼"></a>
+          <div id="slide_img">
+            <ul>
+              <li><img src="images/room(202)(1).jpg" alt="202호 방(1)"></li>
+              <li><img src="images/room(202)(2).jpg" alt="202호 방(2)"></li>
+              <li><img src="images/room(202)(3).jpg" alt="202호 방(3)"></li>
+              <li><img src="images/room(202)(4).jpg" alt="202호 방(4)"></li>
+              <li><img src="images/room(202)(5).jpg" alt="202호 방(5)"></li>
+              <li><img src="images/room(202)(6).jpg" alt="202호 방(6)"></li>
+            </ul>
+          </div>
+        </div>
+      <div class="room_chargeWrap">
+        <h3>객실 요금 안내</h3>
+        <table class="table">
+          <tr>
+            <td class="col_1">객실명</td>
+            <td class="col_2">크기</td>
+            <td class="col_3">인원(기준/최대)</td>
+            <td colspan="4">요금안내(주중/금요일/주말,공휴일)</td>
+          </tr>
+          <tr>
+            <td class="col_1" rowspan="3">202호</td>
+            <td class="col_2" rowspan="3">92.4㎡/28평</td>
+            <td class="col_3" rowspan="3">2/8</td>
+            <td class="col_4">비수기</td>
+            <td class="col_5">90,000</td>
+            <td class="col_6">100,000</td>
+            <td class="col_7">110,000</td>
+          </tr>
+          <tr>
+            <td class="col_4">준성수기</td>
+            <td class="col_5">100,000</td>
+            <td class="col_6">110,000</td>
+            <td class="col_7">120,000</td>
+          </tr>
+          <tr>
+            <td class="col_4">성수기</td>
+            <td class="col_5">120,000</td>
+            <td class="col_6">130,000</td>
+            <td class="col_7">140,000</td>
+          </tr>
+        </table>
+        <ul class="charge_structure">
+          <li>▶</li>
+          <li>구조</li>
+          <li> 침실2 / 거실 / 주방 / 화장실 / 샤워부스</li>
+        </ul>
+        <ul class="charge_facilities">
+          <li>▶</li>
+          <li>구비시설</li>
+          <li>TV / 냉장고 / 에어컨 / 주방용품세트 / 전자레인지 / 수건4장 / 인터넷,와이파이가능</li>
+        </ul>
+        <ul class="charge_info">
+          <li>▶</li>
+          <li>기타정보</li>
+          <li>바베큐(숯, 그릴)이용요금은 2인~5인 20,000원 / 6인~8인 25,000원 펜션에서 결제가능</li>
+        </ul>
+      </div>
+      <div class="operation_guide">
+        <h3>이용안내</h3>
+        <ul>
+          <li>▶</li>
+          <li>상기 요금은 성인 2인 1실 기준 1박 요금이며, 인원 추가 시 추가비용(인당 1만원) 이 있습니다.</li>
+        </ul>
+        <ul>
+          <li>▶</li>
+          <li>체크인은 14시, 체크아웃은 12시 입니다.</li>
+        </ul>
+        <ul>
+          <li>▶</li>
+          <li>화재 예방 차원에서 객실 내 휴대용 버너 및 전열기구 사용을 금지합니다.</li>
+        </ul>
+        <ul>
+          <li>▶</li>
+          <li>귀중품은 프런트에 보관하여 주시기 바랍니다. 보관하지 않은 귀중품에 대한 분실은 보상받으실 수 없습니다.</li>
+        </ul>
+        <ul>
+          <li>▶</li>
+          <li>늦은 시간까지의 고성방가는 타인에게 불편함을 줄 수 있으므로 자제해 주시기 바랍니다.</li>
+        </ul>
+        <ul>
+          <li>▶</li>
+          <li>객실 비품 파손 및 훼손 발생시 개인 변상하셔야 하므로 소중히 다뤄주시기 바랍니다.</li>
+        </ul>
+        <ul>
+          <li>▶</li>
+          <li>쾌적한 환경을 위해 펜션 전 구역 금연으로 운영합니다. 양해 부탁 드립니다. <span>(적발시 10만원 과태료 부과)</span></li>
+        </ul>
+      </div>
+      <div class="reservation">
+        <a href="#">예약하기</a>
+      </div>
+      </section>
+    </<div></div>>
+    <section id="newsletter">
+      <ul>
+        <li><a href="#"><img src="images/인스타그램미니로고.jpg" alt="인스타그램"></a></li>
+        <li><a href="#"><img src="images/페이스북미니로고.jpg" alt="페이스북"></a></li>
+        <li><a href="#"><img src="images/블로그미니로고.jpg" alt="네이버블로그"></a></li>
+        <li><h3>뉴스레터신청</h3></li>
+        <li>
+          <form action="index.html" method="post">
+            <input class="form_email" type="address" name="email" value=" 이메일 주소를 입력해 주세요."
+                    onfocus="this.value=''" onfocusout="this.value='이메일 주소를 입력해 주세요.'">
+          </form>
+        </li>
+        <li><a href="#"><img class="form_submitimg" src="images/newsletter_btn.gif" alt="뉴스레터신청"></a></li>
+      </ul>
+    </section>
+   <footer id="footer">
+      <nav class="footer_nav">
+        <h2 class="hidden">footer메뉴</h2>
+        <ul>
+          <li><a href="#">개인정보처리방침</a></li>
+          <li><a href="#">이용약관</a></li>
+          <li><a href="#">이메일무단수집금지</a></li>
+          <li><a href="#">고객의소리</a></li>
+          <li><a href="#">채용안내</a></li>
+          <li><a href="#">사이트맵</a></li>
+          <li><a href="#">부정제보</a></li>
+          <li><a href="#">직원신문고</a></li>
+        </ul>
+        </nav>
+    <div class="footer_txt">
+      <ul class="footer_txt_1">
+        <li><p>(주)힐링월드 BMK</p></li>
+        <li><p>대표이사:박창욱</p></li>
+        <li><p>개인정보보호책임자:박창욱</p></li>
+        <li><p>사업자등록번호:123-45-67890</p></li>
+        <li><address>대구광역시 달서구 구마로 42길 12 2층</address></li>
+      </ul>
+      <p>계좌번호:(대구-박창욱)123-102949-9752</p>
+      <ul class="footer_txt_2">
+        <li><p>BMK 제주펜션 주소: </p></li>
+        <li><address>제주특별자치도 제주시 애월읍 구엄리 602</address></li>
+        <li><p>전화번호:010-2949-9752</p></li>
+      </ul>
+      <p>홈페이지 참조:캔싱턴호텔</p>
+      <address>qkrckddnrrp@heal.world PARK, Body and Mind Healling.</address>
+    </div>
+  </footer>
+  </body>
+</html>

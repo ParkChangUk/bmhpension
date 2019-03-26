@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="ICON" href="images/타이틀로고.jpg">
+	<title>BMH펜션</title>
+	<script src="js/jquery-1.7.2.min.js"></script>
+	<script src="js/basic.js"></script>
+	<script src="js/main.js"></script>
+  <link rel="stylesheet" href="css/basic.css" type="text/css">
+	<link rel="stylesheet" href="css/main.css" type="text/css">
+</head>
+<body>
+	<!-- TOP버튼 -->
+	<div style="position:relative; z-index: 1;">
+		<div id="right_section" style="position:absolute;top:1000px;right:10px;">
+			<button style="cursor:pointer" id="top_button" type="button" name="button">TOP</button>
+		</div>
+	</div>
+	<header id="header">
+	     <h1 class="logo"><a href="index.html"><img src="images/로고.jpg" alt="BMH펜션"></a></h1>
+			 <nav class="lnb_right">
+					<h2 class="hidden">lnb_right</h2>
+					 <ul>
+							<li><a class="login" href="login.html" onmouseover="this.innerText='로그인'" onmouseout="this.innerText='LOGIN'">LOGIN</a></li>
+							<li><a class="join1" href="join1.html" onmouseover="this.innerText='회원가입'" onmouseout="this.innerText='JOIN'">JOIN</a></li>
+							<li><a class="language" href="#">LANGUAGE<img class="lnb_img" src="images/language_bt.jpg" alt="언어종류"></a>
+									<ul class = "language_menu">
+										<li><a onmouseover="this.innerText='한국어'" onmouseout="this.innerText='KOREA'" href="#">KOREA</a></li>
+										<li><a onmouseover="this.innerText='영어'" onmouseout="this.innerText='ENGLISH'" href="#">ENGLISH</a></li>
+										<li><a onmouseover="this.innerText='일본어'" onmouseout="this.innerText='JAPANESE'" href="#">JAPANESE</a></li>
+										<li><a onmouseover="this.innerText='중국어'" onmouseout="this.innerText='CHINESE'" href="#">CHINESE</a></li>
+									</ul>
+								</li>
+							</li>
+					 </ul>
+				</nav>
+	</header>
+		<div id="sliderWrap">
+
+			<div id="slide">
+					<a href="#slide a"><img class="right_btn" src="images/right_btn.gif" alt=""></a>
+					<a href="#slide a"><img class="left_btn" src="images/left_btn.gif" alt=""></a>
+				<div id="slide_img">
+					<ul>
+						<li><img class="slide_img1" src="images/펜션전경.jpg" alt="펜션환영"></li>
+						<li><img class="slide_img2" src="images/slide2.gif" alt="슬라이드 이미지2"></li>
+						<li><img class="slide_img3" src="images/패키지-슬라이드.gif" alt="패키지사진"></li>
+					</ul>
+				</div>
+			</div>
+
+			<nav class="nav1">
+				<h2 class="hidden">main manu</h2>
+				<ul>
+					<li><span>|<span><a class="nav1_about" href="about.html">ABOUT</a><span>|<span></li>
+					<li><a class="nav1_room" href="room(101).html">ROOM</a></li>
+					<li><span>|<span><a class="nav1_special" href="bmhspecial(getpul)1.html">BMH SPECIAL</a><span>|<span></li>
+					<li><a class="nav1_event" href="bmhevent.html">BMH EVENT</a></li>
+					<li><span>|<span><a class="nav1_traffic" href="traffic.html">TRAFFIC</a></li>
+					<li><span>|<span><a class="nav1_community" href="bmhcommunity.html">COMMUNITY</a></li>
+					<li><a class="nav1_reservation" href="reservation.html">RESERVATION</a></li>
+				</ul>
+	  	</nav>
+
+
+		</div>
+   <section id="package">
+			<header>
+				<h2>package</h2>
+				<div></div>
+			</header>
+			<article class="getpul">
+				<img src="images/getpul.jpg" alt="갯벌체험">
+				<h3>갯벌체험</h3>
+				<p>객실1박+조식제공+갯벌체험2인</p>
+				<p>￦ 90,000</p>
+				<a href="bmhspecial(getpul)1.html">예매하기</a>
+
+			</article>
+			<article class="dinner">
+				<img src="images/dinner.jpg" alt="디너파티">
+				<h3>디너파티</h3>
+				<p>객실1박+조식제공+루프탑디너파티입장권2인</p>
+				<p>￦ 120,000</p>
+				<a class="getpul_a" href="bmhspecial(dinner).html">예매하기</a>
+			</article>
+			<article class="spa">
+				<img src="images/spa.jpg" alt="윈터힐링스파">
+				<h3>윈터힐링스파</h3>
+				<p>객실1박+조식제공+온천입장권2인</p>
+				<p>￦ 150,000</p>
+				<a href="bmhspecial(spa).html">예매하기</a>
+			</article>
+			<article class="pajamas">
+				<img src="images/pajama.jpg" alt="파자마파티">
+				<h3>파자마파티(2인~8인가능)</h3>
+				<p>객실1박+조식제공+픽업서비스+각종파티물품제공</p>
+				<p>￦ 120,000</p>
+				<a href="bmhspecial(pajama).html">예매하기</a>
+			</article>
+			<article class="aroma">
+				<img src="images/aroma.jpg" alt="아로마힐링마사지">
+				<h3>아로마힐링마사지</h3>
+				<p>객실1박+조식제공+아로마마사지권2인</p>
+				<p>￦ 170,000</p>
+				<a href="bmhspecial(aroma).html">예매하기</a>
+			</article>
+		</section>
+		<section id="event">
+			<header><h2>event</h2></header>
+			<div></div>
+				<a href="#"><img src="images/event.jpg" alt="이벤트사진"></a>
+		</section>
+
+		<section id="social">
+			<header><h2>social</h2></header>
+			<div></div>
+			<article class="instar">
+				<a href="#"><img class="social_logo"src="images/인스타로고.jpg" alt="인스타그램로고"></a>
+					<ul>
+						<li><h3>@changuk414</h3></li>
+						<li>BMH 펜션을</li>
+						<li>인스타그램에서 만나요.</li>
+						<li><a href="#">바로가기<img class="instar_btn" src="images/social_btn.jpg" alt="바로가기"></a></li>
+					</ul>
+			</article>
+			<article class="facebook">
+				<a href="#"><img class="social_logo"src="images/페이스북로고.jpg" alt="페이스북로고"></a>
+					<ul>
+						<li><h3>@박창욱</h3></li>
+						<li>BMH 펜션을</li>
+						<li>페이스북에서 만나요.</li>
+						<li><a href="#">바로가기<img class="facebook_btn" src="images/social_btn.jpg" alt="바로가기"></a></li>
+					</ul>
+			</article>
+			<article class="blog">
+				<a href="#"><img class="social_logo" src="images/블로그로고.jpg" alt="블로그로고"></a>
+					<ul>
+						<li><h3>@qkrckddnrrp@naver.com</h3></li>
+						<li>BMH 펜션을</li>
+						<li>네이버블로그에서 만나요.</li>
+						<li><a href="#">바로가기<img class="blog_btn" src="images/social_btn.jpg" alt="바로가기"></a></li>
+					</ul>
+				</article>
+			</section>
+
+			<section id="newsletter">
+				<ul>
+					<li><a href="#"><img src="images/인스타그램미니로고.jpg" alt="인스타그램"></a></li>
+					<li><a href="#"><img src="images/페이스북미니로고.jpg" alt="페이스북"></a></li>
+					<li><a href="#"><img src="images/블로그미니로고.jpg" alt="네이버블로그"></a></li>
+					<li><h3>뉴스레터신청</h3></li>
+					<li>
+						<form action="index.html" method="post">
+							<input class="form_email" type="address" name="email" value=" 이메일 주소를 입력해 주세요."
+											onfocus="this.value=''" onfocusout="this.value='이메일 주소를 입력해 주세요.'">
+						</form>
+					</li>
+					<li><a href="#"><img class="form_submitimg" src="images/newsletter_btn.gif" alt="뉴스레터신청"></a></li>
+				</ul>
+			</section>
+		 <footer id="footer">
+				<nav class="footer_nav">
+					<h2 class="hidden">footer메뉴</h2>
+					<ul>
+						<li><a href="#">개인정보처리방침</a></li>
+						<li><a href="#">이용약관</a></li>
+						<li><a href="#">이메일무단수집금지</a></li>
+						<li><a href="#">고객의소리</a></li>
+						<li><a href="#">채용안내</a></li>
+						<li><a href="#">사이트맵</a></li>
+						<li><a href="#">부정제보</a></li>
+						<li><a href="#">직원신문고</a></li>
+					</ul>
+					</nav>
+			<div class="footer_txt">
+				<ul class="footer_txt_1">
+					<li><p>(주)힐링월드 BMK</p></li>
+					<li><p>대표이사:박창욱</p></li>
+					<li><p>개인정보보호책임자:박창욱</p></li>
+					<li><p>사업자등록번호:123-45-67890</p></li>
+					<li><address>대구광역시 달서구 구마로 42길 12 2층</address></li>
+				</ul>
+				<p>계좌번호:(대구-박창욱)123-102949-9752</p>
+				<ul class="footer_txt_2">
+					<li><p>BMK 제주펜션 주소: </p></li>
+					<li><address>제주특별자치도 제주시 애월읍 구엄리 602</address></li>
+					<li><p>전화번호:010-2949-9752</p></li>
+				</ul>
+				<p>홈페이지 참조:캔싱턴호텔</p>
+				<address>qkrckddnrrp@heal.world PARK, Body and Mind Healling.</address>
+			</div>
+		</footer>
+
+</body>
+</html>

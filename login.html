@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="ICON" href="images/타이틀로고.jpg">
+    <title>LOGIN</title>
+    <script src="js/jquery-1.7.2.min.js"></script>
+  	<script src="js/basic.js"></script>
+    <link rel="stylesheet" href="css/basic.css" type="text/css">
+  	<link rel="stylesheet" href="css/login.css" type="text/css">
+  </head>
+  <body>
+    <header id="header">
+         <h1 class="logo"><a href="index.html"><img src="images/로고.jpg" alt="BMH펜션"></a></h1>
+         <nav class="lnb_right">
+            <h2 class="hidden">lnb_right</h2>
+             <ul>
+                <li><a class="login" href="login.html" onmouseover="this.innerText='로그인'" onmouseout="this.innerText='LOGIN'">LOGIN</a></li>
+                <li><a class="join1" href="join1.html" onmouseover="this.innerText='회원가입'" onmouseout="this.innerText='JOIN'">JOIN</a></li>
+                <li><a class="language" href="#">LANGUAGE<img class="lnb_img" src="images/language_bt.jpg" alt="언어종류"></a>
+                    <ul class = "language_menu">
+                      <li><a onmouseover="this.innerText='한국어'" onmouseout="this.innerText='KOREA'" href="#">KOREA</a></li>
+                      <li><a onmouseover="this.innerText='영어'" onmouseout="this.innerText='ENGLISH'" href="#">ENGLISH</a></li>
+                      <li><a onmouseover="this.innerText='일본어'" onmouseout="this.innerText='JAPANESE'" href="#">JAPANESE</a></li>
+                      <li><a onmouseover="this.innerText='중국어'" onmouseout="this.innerText='CHINESE'" href="#">CHINESE</a></li>
+                    </ul>
+                  </li>
+                </li>
+             </ul>
+          </nav>
+    </header>
+  		<div id="sliderWrap">
+        <nav class="nav1">
+          <h2 class="hidden">main manu</h2>
+          <ul>
+            <li><span>|<span><a class="nav1_about" href="about.html">ABOUT</a><span>|<span></li>
+            <li><a class="nav1_room" href="room(101).html">ROOM</a></li>
+            <li><span>|<span><a class="nav1_special" href="bmhspecial(getpul)1.html">BMH SPECIAL</a><span>|<span></li>
+            <li><a class="nav1_event" href="bmhevent.html">BMH EVENT</a></li>
+            <li><span>|<span><a class="nav1_traffic" href="traffic.html">TRAFFIC</a></li>
+  					<li><span>|<span><a class="nav1_community" href="bmhcommunity.html">COMMUNITY</a></li>
+  					<li><a class="nav1_reservation" href="reservation.html">RESERVATION</a></li>
+          </ul>
+        </nav>
+        <div class="login_txt">
+          <h2>LOGIN</h2>
+          <p>Body and Mind Healing pension</p>
+        </div>
+      </div>
+      <section id="content">
+        <h2>BMH펜션에 오신 것을 환영합니다.</h2>
+        <p>홈페이지에 로그인 하시면 다양한 서비스를 편리하게 이용하실 수 있습니다.</p>
+        <h3>LOGIN</h3>
+        <div class="naver_login">
+            <article class="online_lg">
+            <ul>
+              <form class="" action="php/login_check.php" method="post">
+              <li>온라인 회원</li>
+              <li>
+                  아이디 <input class="id" type="text" name="id" value="" maxlength="10"><br>
+                  비밀번호 <input class="pw" type="password" name="pw" value="" maxlength="10">
+              </li>
+              <li><input class="id_save"id="id_save"type="checkbox" name="save" value="id_save"><label for="id_save">아이디저장</label>
+                  <input class="auto_lg"id="auto_lg"type="checkbox" name="auto" value="auto_login"><label for="auto_lg">자동로그인</label></li>
+              <li><input type="submit" class="onlineLogin" value="LOGIN" style="cursor:pointer"></input></li>
+              </form>
+            </ul>
+          </article>
+          <article class="nonmamber_lg">
+            <ul>
+              <li>비회원</li>
+              <li><form class="" action="index.html" method="post">
+                  이름 <input class="non_name" type="text" name="id" value="" maxlength="10"><br>
+                  예약번호 <input class="pw" type="password" name="pss" value="" maxlength="10"></form>
+              </li>
+              <li>
+                <h4>※ 예약 시점부터 최대 3개월까지 조회 가능합니다.</h4>
+              </li>
+              <li><input type="submit" class="non_Login" value="LOGIN" style="cursor:pointer"></input></li>
+            </ul>
+          </article>
+          <article class="lg_bottom">
+            <ul>
+              <li><a href="join1.html">회원가입</a></li>
+              <li><a href="#">아이디/비밀번호 찾기</a></li>
+            </ul>
+
+          </article>
+        </div>
+      </section>
+
+
+      <section id="newsletter">
+        <ul>
+          <li><a href="#"><img src="images/인스타그램미니로고.jpg" alt="인스타그램"></a></li>
+          <li><a href="#"><img src="images/페이스북미니로고.jpg" alt="페이스북"></a></li>
+          <li><a href="#"><img src="images/블로그미니로고.jpg" alt="네이버블로그"></a></li>
+          <li><h3>뉴스레터신청</h3></li>
+          <li>
+            <form action="index.html" method="post">
+              <input class="form_email" type="address" name="email" value=" 이메일 주소를 입력해 주세요."
+                      onfocus="this.value=''" onfocusout="this.value='이메일 주소를 입력해 주세요.'">
+            </form>
+          </li>
+          <li><a href="#"><img class="form_submitimg" src="images/newsletter_btn.gif" alt="뉴스레터신청"></a></li>
+        </ul>
+      </section>
+     <footer id="footer">
+        <nav class="footer_nav">
+          <h2 class="hidden">footer메뉴</h2>
+          <ul>
+            <li><a href="#">개인정보처리방침</a></li>
+            <li><a href="#">이용약관</a></li>
+            <li><a href="#">이메일무단수집금지</a></li>
+            <li><a href="#">고객의소리</a></li>
+            <li><a href="#">채용안내</a></li>
+            <li><a href="#">사이트맵</a></li>
+            <li><a href="#">부정제보</a></li>
+            <li><a href="#">직원신문고</a></li>
+          </ul>
+          </nav>
+      <div class="footer_txt">
+        <ul>
+          <li><p>(주)힐링월드 BMK</p></li>
+          <li><p>대표이사:박창욱</p></li>
+          <li><p>개인정보보호책임자:박창욱</p></li>
+          <li><p>사업자등록번호:123-45-67890</p></li>
+          <li><address>대구광역시 달서구 구마로 42길 12 2층</address></li>
+        </ul>
+        <p>계좌번호:(대구-박창욱)123-102949-9752</p>
+        <ul>
+          <li><p>BMK 제주펜션</p></li>
+          <li><address>주소:제주특별자치도 제주시 애월읍 구엄리 602</address></li>
+          <li><p>전화번호:010-2949-9752</p></li>
+        </ul>
+        <p>홈페이지 참조:캔싱턴호텔</p>
+        <address>qkrckddnrrp@heal.world PARK, Body and Mind Healling.</address>
+      </div>
+    </footer>
+  </body>
+</html>
